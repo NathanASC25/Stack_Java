@@ -3,15 +3,15 @@ public class LinkedListStack {
 
 	private class Node {
                 int value;
-		Node next;
+                Node next;
         }
-	public LinkedListStack() {
+        public LinkedListStack() {
                 this.top = null;
-	}
-	public void push(int value) {
+        }
+        public void push(int value) {
                 Node newNode = new Node();
-		newNode.data = value;
-		newNode.next = top;
-		top = newNode;
+                newNode.data = value;
+                newNode.next = top;
+                top = newNode;
         }
 }
