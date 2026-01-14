@@ -1,7 +1,7 @@
 public class LinkedListStack {
         private Node top;
 
-	private class Node {
+        private class Node {
                 int value;
                 Node next;
         }
