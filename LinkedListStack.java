@@ -14,4 +14,16 @@ public class LinkedListStack {
                 newNode.next = top;
                 top = newNode;
         }
+        public int pop() {
+                if (top == null) {
+                        System.out.print("\nStack is empty!\n");
+                        return -1;
+                }
+                else {
+                        int poppedValue = top.data;
+                        top = top.next;
+                        System.out.printf("Popped element: %d", poppedValue);
+                        return poppedValue;
+                }
+        }
 }
