@@ -20,7 +20,7 @@ class ArrayStack {
     }
     public void push(int val) {
         newArr = new int[arr.length + 1];
-	newArr[0] = val;
+        newArr[0] = val;
         for (int i = 1; i < newArr.length; i += 1) {
             newArr[i] = arr[i - 1];
         }
