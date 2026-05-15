@@ -7,7 +7,7 @@ Last element removed. Stack is now empty.
 
 Stack is empty. Cannot remove elements.
 
-[2,1]
+[2, 1]
 
 Index Of 1: 1
 

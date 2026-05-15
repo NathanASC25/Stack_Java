@@ -53,7 +53,7 @@ class LinkedListStack {
         sequence += "\n[" +  current.val;
         current = current.next;
         while (current != null) {
-            sequence += "," + current.val;
+            sequence += ", " + current.val;
             current = current.next;
         }
         sequence += "]\n";
